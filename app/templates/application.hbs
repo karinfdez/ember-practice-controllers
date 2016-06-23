@@ -8,11 +8,9 @@ Property 2: {{prop2}} <br>
 
 Property 3: {{prop3}}
 
-	
-	<button {{action 'action1'}}>Action 1 in controller</button>
-
-	<h4>This action will be available in the route because of the action returning true.
-	This action will bubble up to the application route</h4>
+	<h4>Button Action 2 will be available in the route because of the action returning true.
+	This action will bubble up to the application route. So I will have 2 actions fired up, one from the controller and the other one from the route.</h4>
+	<br><button {{action 'action1'}}>Action 1 in controller</button>
 	
 	<button {{action 'action2'}}>Action 2 in controller and route</button>
 	
